@@ -1,0 +1,3 @@
+DirectoryIndex services.html
+
+RewriteRule ^(([^/]+/)*[^/.]+)$ $1.html [R=301,L] 
