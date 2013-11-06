@@ -14,7 +14,7 @@ document.onclick = function(event) {
       }
       // Within "Limelight", handle any links clicked WITHOUT the .html suffix
       if (link.indexOf('.html') == -1) {
-        link = link.replace('/performance/', '');
+        link = link.replace('/performance', '');
         window.location.href = link + '.html';
         return false;
       }
