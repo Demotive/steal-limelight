@@ -51,8 +51,8 @@ then
     find $dir -name "*.html" | while read file
     do
        #echo "$block" >> $file
-       sed -i "" -e '/<\/head>/i\'$'\n''<link rel="stylesheet" href="overrides/override.css" />' $file
-       sed -i "" -e '/<\/body>/i\'$'\n''<script src="overrides/override.js" type="text/javascript"></script><script src="overrides/link-catcher.js" type="text/javascript"></script>' $file
+       sed -i "" -e '/<\/head>/i\'$'\n''<link rel="stylesheet" href="/overrides/override.css" />' $file
+       sed -i "" -e '/<\/body>/i\'$'\n''<script src="/overrides/override.js" type="text/javascript"></script><script src="/overrides/link-catcher.js" type="text/javascript"></script>' $file
     done
 
     echo "Done!"

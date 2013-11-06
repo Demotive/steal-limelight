@@ -33,7 +33,7 @@ Sort out a directory where you'd like all the files to be saved, for example `~/
 
 *If you don't specify a directory argument, all the files will be downloaded to the directory you are currently sat in.*
 
-If you're happy, type "Y" at the prompt, and you're off. Once the script has run, you can use a local server if you like, or just open the files in a browser.
+If you're happy, type "Y" at the prompt, and you're off. Once the script has run, use a local server of your choice - `python -m SimpleHTTPServer` - to serve the pages to the browser.
 
 
 Getting Homebrew and wget if you haven't got them:
