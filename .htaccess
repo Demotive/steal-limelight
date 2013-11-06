@@ -1,9 +1,0 @@
-DirectoryIndex services.html index.html
-
-Options +FollowSymLinks
-RewriteEngine on
-
-# Always ensure a .html suffix to requests (this handles requests from JSON loaded data in licensing)
-RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{3,4}
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.*)$ $1.html
